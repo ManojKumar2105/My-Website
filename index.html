@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/Projects/favicon.ico" />
+    <title>MANOJ KUMAR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">MANOJ<span></span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Manoj Kumar</span>
+          <p>
+            Hello everyone!I am Manoj Kumar<br>
+            Interested in learning as well as teaching<br>
+            Love reading books and playing video games
+          </p>
+        </div>
+        <div class="main-two">
+          <img src="Manoj.jpg" class="Manoj" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Ecommerce Website</h3>
+          <p>
+            Check my Amazing Ecommerce website "AMAZCART"
+          </p>
+          <a href="https://pacific-castle-97696.herokuapp.com" target="_blank"><button>GO</button></a>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Weather App</h3>
+          <p>
+            Check Weather in every cities
+          </p>
+          <button>GO</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Security Band</h3>
+          <p>
+            A safety device for Women and Children
+          </p>
+          <button>GO</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>MANOJ KUMAR</span>
+          <p>
+            Pursuing BTECH degree in Information Technology branch at Velammal Engineering College<br>Full Stack Developer<br>Game Developer <br> Hobbies are playing Video Games,Reading Books,Listening to Music
+          </p>
+          <div class="btns">
+            <a href="mailto:manojmogul123@gmail.com" target="_blank"><button>Contact Me</button></a>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="Manoj1.jpeg"  class="Manoj" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <form action="mailto:manojmogul123@gmail.com" method="post">
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+    </form>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">©MANOJ KUMAR</div>
+        <div class="social">
+          <a href="https://www.instagram.com/itzz_manoj._.here/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:manojmogul123@gmail.com"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Manoj Kumar", "Full Stack Developer"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
