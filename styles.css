@@ -62,10 +62,13 @@ nav input{
 }
 header nav ul{
     justify-content: center;
-    width: 70%;
+    width: 100%;
+    align-self: flex-end;
+    
 }
 nav ul li{
     list-style: none;
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -341,8 +344,140 @@ footer .social i{
     border-radius: 1000px;
 }
 
-
 .about-me{
     line-height: 2;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    header .logo{
+        font-size: 50px;
+        font-weight: 600;
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 1px; 
+    
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 25px;
+        font-weight:500;
+        color: white;
+        width:100%;
+        margin-left: 3px ;
+        margin-top:105px;
+    }
+    header nav ul{
+        justify-content: center;
+        width: 80%;
+        align-self: flex-end;
+        
+    }
+    nav input{
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 4px 10px;
+        padding-left: 33px;
+        border:2px solid #FFDE59;
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+    }
+    .container .main{
+        width: 100%;
+        height: 80vh;
+        justify-content: center;
+    }
+    .main .main-one{
+        width: 45%;
+        padding: 40px 30px;
+        /* padding-left: 150px; */
+    }
+    .main-one h1{
+        font-size: 60px;
+        margin-top: 180px;
+    }
+    .main-one span{
+        font-weight: 600;
+        font-size: 60px;
+        color: #FFDE59;
+    }
+    .main-one p{
+        font-size: 20px;
+        padding: 25px;
+    }
+    .main-two img{
+        width: 430px;
+    }
+    .main .main-two{
+        width: 65%;
+    }
+    .projects{
+        position: relative;
+        margin-top: 50px;
+        width: 100%;
+        height: 600px;
+        padding: 100px 280px;
+    }
+    .projects-div{
+        width:200px;
+        height: 400px;
+        position: absolute;
+        /* z-index: 100; */
+        flex-direction: column;
+        margin: 10px;
+        margin-bottom: 50px;
+        /* padding: 80px; */
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: all 0.2s ease-out;
+    }
+    .div-1{
+        top: 330px;
+        left: 80px;
+    }
+    .div-2{
+        bottom: 10px;
+        /* top: 340px; */
+        /* right: 900px; */
+        left:300px;
+    }
+    .div-3{
+        bottom: 10px;
+        right: 570px;
+    }
+    .about{
+        width: 100%;
+        height: 450px;
+        padding: 50px 50px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .about-one{
+        width: 55%;
+        padding: 0 60px;
+    }
+    .about-one h1{
+        font-size: 40px;
+    }
+    .about-one p{
+        padding: 10px 0;
+        width: 105%;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .about-two{
+        width: 90%;
+    }
+    .about-two img{
+        width: 340px;
+    }
+    .box div{
+        width: 65%;
+        margin: auto;
+    }
+
 }
 
